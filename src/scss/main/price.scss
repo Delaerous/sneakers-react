@@ -1,0 +1,10 @@
+.price{
+    display: flex;
+    flex-direction: column;
+    &__title{
+        color: #BDBDBD;
+        text-transform: uppercase;
+        font-size: 0.7857rem;
+        margin-bottom: 0.1429rem;
+    }
+}

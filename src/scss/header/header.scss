@@ -1,0 +1,32 @@
+.header{
+    padding-top: 3.0714rem;
+    padding-bottom: 3.1429rem;
+    border-bottom:1px solid #EAEAEA;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left{
+        display: flex;
+
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+    }
+    &__title{
+        color: $black;
+        font-size: 1.4286rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__subtitle{
+        color: $grayHeader-r;
+        font-size: 1rem;
+    }
+    &__logo{
+        max-width: 2.8571rem;
+        max-height: 2.8571rem;
+        margin-right: 1.1429rem;
+    }
+}
